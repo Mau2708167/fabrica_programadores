@@ -1,0 +1,22 @@
+#Autor: Mauricio Melo
+#projeto: operaçoes Matematicas
+
+#Variaveis
+nome=input('digite seu nome')
+valor1 = int(input('digite seu primeiro valor:'))
+valor2=int(input('digite seu segundo valor:'))
+resultado1= valor1 + valor2
+resultado2= valor1 - valor2
+resultado3= valor1*valor2
+resultado4= valor2/valor2
+resultado5=valor1//valor2
+resultado6=valor1 % valor2
+resultado7= valor1 ** valor2
+
+print(f' O resultado da soma é: {resultado1}')
+print(f' O resultado da subtração é: {resultado2}')
+print(f' O resultado da multiplicação é:{resultado3}')
+print(f' O resultado da divisao é: {resultado4}')
+print(f' O resultado da divisão inteira é: {resultado5}')
+print(f' O resultado da modulo é: {resultado6}')
+print(f'O resultado da potencia é: {resultado7}')
